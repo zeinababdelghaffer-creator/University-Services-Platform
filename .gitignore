@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables (أهم جزء لحماية مفاتيح الـ API والداتابيز)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production builds
+dist/
+build/
+out/
+.next/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output
+
+# IDE & Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache & Temporary files
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.cache/
+tmp/
+temp/
+
+# Database & Uploads (لو بترفع ملفات محليًا أثناء التطوير)
+*.sqlite
+*.sqlite3
+uploads/*
+!uploads/.gitkeep
